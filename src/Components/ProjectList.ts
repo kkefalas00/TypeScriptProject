@@ -1,10 +1,10 @@
-import { Component } from "./BaseComponent.js";
-import { DragTarget } from "../Interfaces/Dragtarget/DragTarget.js";
-import { Project } from "./Project.js";
-import { ProjectStatus } from "../Enums/ProjectStatus.js";
-import { ProjectState } from "./ProjectState.js";
-import { autobind } from "../Decorators/Autobind.js";
-import { ProjectItem } from "./ProjectItem.js";
+import { Component } from "./BaseComponent";
+import { DragTarget } from "../Interfaces/Dragtarget/DragTarget";
+import { Project } from "./Project";
+import { ProjectStatus } from "../Enums/ProjectStatus";
+import { ProjectState } from "./ProjectState";
+import { autobind } from "../Decorators/Autobind";
+import { ProjectItem } from "./ProjectItem";
 
 const projectState = ProjectState.getInstance();
 

@@ -1,7 +1,7 @@
-import { Component } from "./BaseComponent.js";
-import { validatable, validate } from "../Interfaces/Validatable/Validatable.js";
-import { autobind } from "../Decorators/Autobind.js";
-import { ProjectState } from "./ProjectState.js";
+import { Component } from "./BaseComponent";
+import { validatable, validate } from "../Interfaces/Validatable/Validatable";
+import { autobind } from "../Decorators/Autobind";
+import { ProjectState } from "./ProjectState";
 
 const projectState = ProjectState.getInstance();
 
